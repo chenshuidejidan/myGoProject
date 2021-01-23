@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60f3d56c-d0d8-4d0a-ba03-9365f662a8ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/leetcode/Leetcode198_86.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/leetcode/Leetcode143_74.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myLearnProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myGoProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/leetcode/Leetcode160_78.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/leetcode/Leetcode160_78.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/leetcode/leetcode_ds/List.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/leetcode/ds/List.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +21,17 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.15.6" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../sdk" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1lxZhWnklkDEiDIykINK3hJFzEi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -35,9 +47,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -48,18 +62,18 @@
       <recent name="$PROJECT_DIR$/main/basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build Leetocde189_85.go">
-    <configuration name="go build Leetcode171_81.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="myLearnProject" />
+  <component name="RunManager" selected="Go Build.go build Leetcode143_74.go">
+    <configuration name="go build Leetcode143_74.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="myGoProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main/leetcode/Leetcode171_81.go" />
-      <package value="myLearnProject" />
+      <filePath value="$PROJECT_DIR$/main/leetcode/Leetcode143_74.go" />
+      <package value="myGoProject" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="go build Leetcode179_83.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="myLearnProject" />
+      <module name="myGoProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/main/leetcode/Leetcode179_83.go" />
@@ -68,7 +82,7 @@
       <method v="2" />
     </configuration>
     <configuration name="go build Leetocde189_85.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="myLearnProject" />
+      <module name="myGoProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/main/leetcode/Leetocde189_85.go" />
@@ -77,7 +91,7 @@
       <method v="2" />
     </configuration>
     <configuration name="go build date.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="myLearnProject" />
+      <module name="myGoProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/main/basic/date.go" />
@@ -86,7 +100,7 @@
       <method v="2" />
     </configuration>
     <configuration name="go build myLearnProject/main/basic" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="myLearnProject" />
+      <module name="myGoProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/main/basic/date.go" />
@@ -95,19 +109,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build Leetcode171_81.go" />
       <item itemvalue="Go Build.go build Leetcode179_83.go" />
       <item itemvalue="Go Build.go build myLearnProject/main/basic" />
       <item itemvalue="Go Build.go build date.go" />
       <item itemvalue="Go Build.go build Leetocde189_85.go" />
+      <item itemvalue="Go Build.go build Leetcode143_74.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build Leetcode143_74.go" />
         <item itemvalue="Go Build.go build Leetocde189_85.go" />
         <item itemvalue="Go Build.go build date.go" />
         <item itemvalue="Go Build.go build myLearnProject/main/basic" />
         <item itemvalue="Go Build.go build Leetcode179_83.go" />
-        <item itemvalue="Go Build.go build Leetcode171_81.go" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +178,11 @@
           <url>file://$PROJECT_DIR$/main/leetcode/Leetocde189_85.go</url>
           <line>11</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/main/leetcode/Leetcode143_74.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

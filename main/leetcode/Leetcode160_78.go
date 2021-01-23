@@ -2,27 +2,27 @@ package main
 
 import (
 	"fmt"
-	"myLearnProject/main/leetcode/leetcode_ds"
+	."myGoProject/main/leetcode/ds"
 )
 
 func main() {
-	node1 := &leetcode_ds.ListNode{
+	node1 := &ListNode{
 		Val:  1,
 		Next: nil,
 	}
-	node2 := &leetcode_ds.ListNode{
+	node2 := &ListNode{
 		Val:  2,
 		Next: node1,
 	}
-	node3 := &leetcode_ds.ListNode{
+	node3 := &ListNode{
 		Val:  3,
 		Next: node2,
 	}
-	node4 := &leetcode_ds.ListNode{
+	node4 := &ListNode{
 		Val:  4,
 		Next: node2,
 	}
-	node5 := &leetcode_ds.ListNode{
+	node5 := &ListNode{
 		Val:  5,
 		Next: node4,
 	}
@@ -30,11 +30,11 @@ func main() {
 	fmt.Println(node.Val)
 }
 
-func getIntersectionNode2(headA, headB *leetcode_ds.ListNode) *leetcode_ds.ListNode {
+func getIntersectionNode2(headA, headB *ListNode) *ListNode {
 	if headA == nil || headB == nil {
 		return nil
 	}
-	nodes := make(map[*leetcode_ds.ListNode]int)
+	nodes := make(map[*ListNode]int)
 	for headA != nil {
 		nodes[headA]++
 		headA = headA.Next
@@ -48,7 +48,7 @@ func getIntersectionNode2(headA, headB *leetcode_ds.ListNode) *leetcode_ds.ListN
 	return nil
 }
 
-func getIntersectionNode(headA, headB *leetcode_ds.ListNode) *leetcode_ds.ListNode {
+func getIntersectionNode(headA, headB *ListNode) *ListNode {
 	lenA := listLen(headA)
 	lenB := listLen(headB)
 	if lenA > lenB {
@@ -69,7 +69,7 @@ func getIntersectionNode(headA, headB *leetcode_ds.ListNode) *leetcode_ds.ListNo
 	return nil
 }
 
-func listLen(head *leetcode_ds.ListNode) (len int) {
+func listLen(head *ListNode) (len int) {
 	for head != nil {
 		len++
 		head = head.Next
