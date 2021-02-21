@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60f3d56c-d0d8-4d0a-ba03-9365f662a8ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/leetcode/Leetcode143_74.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/myLearnProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myGoProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/basic/slice6_new.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/basic/struct5_swap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/leetcode/Leetcode221_94.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/leetcode/Leetcode225_95.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/leetcode/Leetcode227_97.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/leetcode/Leetcode232_99.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/leetcode/Leetcode234_100.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/leetcode/Leetcode235.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/leetcode/Leetcode160_78.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/leetcode/Leetcode160_78.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/leetcode/leetcode_ds/List.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/leetcode/ds/List.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/leetcode/Leetcode208.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/leetcode/Leetcode208.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +25,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../sdk" />
+  <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.15.6" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -50,8 +54,9 @@
     <property name="configurable..is.expanded" value="false" />
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -62,66 +67,66 @@
       <recent name="$PROJECT_DIR$/main/basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build Leetcode143_74.go">
-    <configuration name="go build Leetcode143_74.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build Leetcode235.go">
+    <configuration name="go build Leetcode199_86.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myGoProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main/leetcode/Leetcode143_74.go" />
+      <filePath value="$PROJECT_DIR$/main/leetcode/Leetcode199_86.go" />
       <package value="myGoProject" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Leetcode179_83.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Leetcode232_99.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myGoProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main/leetcode/Leetcode179_83.go" />
-      <package value="myLearnProject" />
+      <filePath value="$PROJECT_DIR$/main/leetcode/Leetcode232_99.go" />
+      <package value="myGoProject" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Leetocde189_85.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Leetcode234_100.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myGoProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main/leetcode/Leetocde189_85.go" />
-      <package value="myLearnProject" />
+      <filePath value="$PROJECT_DIR$/main/leetcode/Leetcode234_100.go" />
+      <package value="myGoProject" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build date.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Leetcode235.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myGoProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main/basic/date.go" />
-      <package value="myLearnProject" />
+      <filePath value="$PROJECT_DIR$/main/leetcode/Leetcode235.go" />
+      <package value="myGoProject" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build myLearnProject/main/basic" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build myGoProject/main/leetcode (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myGoProject" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/main/basic/date.go" />
-      <package value="myLearnProject/main/basic" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main/leetcode/Leetcode227_97.go" />
+      <package value="myGoProject/main/leetcode" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build Leetcode179_83.go" />
-      <item itemvalue="Go Build.go build myLearnProject/main/basic" />
-      <item itemvalue="Go Build.go build date.go" />
-      <item itemvalue="Go Build.go build Leetocde189_85.go" />
-      <item itemvalue="Go Build.go build Leetcode143_74.go" />
+      <item itemvalue="Go Build.go build myGoProject/main/leetcode (1)" />
+      <item itemvalue="Go Build.go build Leetcode232_99.go" />
+      <item itemvalue="Go Build.go build Leetcode234_100.go" />
+      <item itemvalue="Go Build.go build Leetcode199_86.go" />
+      <item itemvalue="Go Build.go build Leetcode235.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build Leetcode143_74.go" />
-        <item itemvalue="Go Build.go build Leetocde189_85.go" />
-        <item itemvalue="Go Build.go build date.go" />
-        <item itemvalue="Go Build.go build myLearnProject/main/basic" />
-        <item itemvalue="Go Build.go build Leetcode179_83.go" />
+        <item itemvalue="Go Build.go build Leetcode235.go" />
+        <item itemvalue="Go Build.go build Leetcode234_100.go" />
+        <item itemvalue="Go Build.go build Leetcode199_86.go" />
+        <item itemvalue="Go Build.go build Leetcode232_99.go" />
+        <item itemvalue="Go Build.go build myGoProject/main/leetcode (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +188,36 @@
           <url>file://$PROJECT_DIR$/main/leetcode/Leetcode143_74.go</url>
           <line>9</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/main/leetcode/Leetcode208.go</url>
+          <line>6</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/main/leetcode/Leetcode221_94.go</url>
+          <line>18</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/main/leetcode/Leetcode221_94.go</url>
+          <line>40</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/main/leetcode/Leetcode227_97.go</url>
+          <line>10</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/main/leetcode/Leetcode232_99.go</url>
+          <line>48</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/main/leetcode/Leetcode235.go</url>
+          <line>20</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
