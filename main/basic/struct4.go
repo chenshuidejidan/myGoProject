@@ -1,16 +1,36 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
-	"myLearnProject/main/important"
+	"log"
+	"time"
 )
 
+type T struct {
+	Name string
+	Age  int
+}
+
 func main() {
-	b := important.B{
-		BB: 1,
-		//bb: 1,  //Unexported field 'bb' usage in struct literal
-		//AA: 1,  //Unknown field 'AA' in struct literal
+	t1 := &T{"aaa", 1}
+	t2 := &T{"bbb", 2}
+	t3 := &T{"ccc", 3}
+	list := []*T{t1, t2, t3}
+	bytes, _ := json.Marshal(list)
+	fmt.Println(bytes)
+	fmt.Println(string(bytes))
+	fmt.Println("=============")
+
+	TradeDateBegin := "2020-11-02"
+	if TradeDateBegin == "" {
+		TradeDateBegin = time.Now().AddDate(0, 0, -3).Format("2006-01-02")
 	}
-	b.AA = 2
-	fmt.Printf("%v", b) //{{0 2} 0 1}
+	begin, err := time.ParseInLocation("2006-01-02 15:04:05", TradeDateBegin, time.Local)
+	if err != nil {
+		log.Println("parse fail....")
+	}
+	TradeDateBegin = begin.Format("2006-01-02 15:04:05")
+
+	fmt.Println(TradeDateBegin)
 }
